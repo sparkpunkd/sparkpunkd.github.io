@@ -6,16 +6,32 @@
         background: black;
         color:#CCCCCC;
       }
+
+      @media screen and (min-width: 1920px) {
+        body {
+          display: flex;
+          flex-direction: rows;
+        }
+
+        body > * {
+          flex-grow: 1;
+          padding: 16px;
+        }
+      }
     </style>
   </head>
 
   <body>
-    <h2>Sofie Live-to-Mobile Editorial and Integration Testing</h2>
-    <div class="nrk-video" data-nrk-id="e1f1ca3a-3d82-4f94-a810-ff09bcc1ea69" data-nrk-aspect="1:1"></div>
-    <script src="https://static.nrk.no/ludo/latest/video-embed.js"></script>
+    <div>
+      <h2>Sofie Live-to-Mobile Editorial and Integration Testing</h2>
+      <div class="nrk-video" data-nrk-id="e1f1ca3a-3d82-4f94-a810-ff09bcc1ea69" data-nrk-aspect="1:1"></div>
+      <script src="https://static.nrk.no/ludo/latest/video-embed.js"></script>
+    </div>
     
-    <h2>Sofie Live-to-Mobile Technical Testing</h2>
-    <div class="nrk-video" data-nrk-id="e91579e0-e559-4065-9ece-1698ca9055d1" data-nrk-aspect="1:1"></div>
-    <script src="https://static.nrk.no/ludo/latest/video-embed.js"></script>
+    <div>
+      <h2>Sofie Live-to-Mobile Technical Testing</h2>
+      <div class="nrk-video" data-nrk-id="e91579e0-e559-4065-9ece-1698ca9055d1" data-nrk-aspect="1:1"></div>
+      <script src="https://static.nrk.no/ludo/latest/video-embed.js"></script>
+    </div>
   </body>
 </html>
